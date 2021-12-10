@@ -15,8 +15,6 @@
 
 `[name].type.ts`用于扩展`Antd`组件`Props`
 
-**组件文件夹建议首字母大写，否则可能出现定义的`PropsType`未展示问题。**
-
 #### hygen
 
 如果需要编辑多个`Antd`组件，借助`hygen`实现
@@ -49,4 +47,3 @@ export type <%= name %>Props = customProps<Antd<%= name %>Props, {}>;
 ```
 
 `npm run newComponent`适用于元素较少的情况，可以依次创建元素，如果需要创建的元素较多，可以通过脚本批量执行。
-

@@ -6,5 +6,5 @@ export default {
 };
 
 export const Basic = () => {
-  return <Input type="link">按钮</Input>;
+  return <Input />;
 };
